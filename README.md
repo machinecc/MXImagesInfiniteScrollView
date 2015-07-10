@@ -4,6 +4,8 @@
 
 MXImagesInfiniteScrollView is a lightweight Swift implementation of scrolling iamgeview, which can infinitely scroll among an array of images.
 
+
+
 ### Example Usage
 
 Please download file *MXImagesInfiniteScrollView.swift* and all source files in folder *KFSwiftImageLoader*, and add them to your project.
@@ -11,13 +13,19 @@ Please download file *MXImagesInfiniteScrollView.swift* and all source files in 
 A small demo of how to use this class is also provided.
 
 
+
 ### Special Thanks
 
-MXImagesInfiniteScrollView is based on [KFSwiftImageLoader](https://github.com/kiavashfaisali/KFSwiftImageLoader), a powerful and elegant async web image loader with memory and disk caching.
+UIImage extension in MXImagesInfiniteScrollView is from [KFSwiftImageLoader](https://github.com/kiavashfaisali/KFSwiftImageLoader), a powerful and elegant async web image loader with memory and disk caching.
+
+
+
+### Contact Information
 
 If you have any suggestion, please kindly contact me.
 - [Xin's Blog](http://machinecc.github.io)
 - [machine.miao@gmail.com](mailto:machine.miao@gmail.com)
+
 
 
 ### License
