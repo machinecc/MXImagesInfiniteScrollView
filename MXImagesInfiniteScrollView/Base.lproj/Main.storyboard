@@ -23,9 +23,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="fi6-hy-co8" secondAttribute="trailing" id="FgK-WA-Odb"/>
-                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="fi6-hy-co8" secondAttribute="bottom" id="ZaT-pJ-hxF"/>
-                            <constraint firstItem="fi6-hy-co8" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="aiN-6P-f13"/>
+                            <constraint firstItem="fi6-hy-co8" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="M0p-Nk-w7y"/>
                             <constraint firstItem="fi6-hy-co8" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="j5I-Fb-2P9"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="fi6-hy-co8" secondAttribute="bottom" id="wNG-lx-k3n"/>
                         </constraints>
                     </view>
                     <connections>

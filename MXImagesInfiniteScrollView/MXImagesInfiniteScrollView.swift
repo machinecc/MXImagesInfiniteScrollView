@@ -54,14 +54,14 @@ public class MXImagesInfiniteScrollView: UIScrollView, UIScrollViewDelegate {
     
     /// MARK: Public getter / setter properties to provide neccessary information for UIPageControl.
 
-    /// Number of pages to present in this view
+    /// Peoperty: Number of pages to present in this view
     public private(set) var numPages: Int = 0 {
         didSet {
             pageControl?.numberOfPages = numPages
         }
     }
     
-    /// Current page
+    /// Property: Current page
     public private(set) var currentPage: Int = 0 {
         didSet {
             pageControl?.currentPage = currentPage
@@ -69,14 +69,14 @@ public class MXImagesInfiniteScrollView: UIScrollView, UIScrollViewDelegate {
     }
     
     
-    /// Pagecontrol's pageIndicatorTintColor
+    /// Property: Pagecontrol's pageIndicatorTintColor
     public var pageIndicatorTintColor: UIColor? {
         didSet {
             pageControl?.pageIndicatorTintColor = pageIndicatorTintColor
         }
     }
     
-    /// Pagecontrol's currentPageIndicatorTintColor
+    /// Property: Pagecontrol's currentPageIndicatorTintColor
     public var currentPageIndicatorTintColor: UIColor? {
         didSet {
             pageControl?.currentPageIndicatorTintColor = currentPageIndicatorTintColor
@@ -151,9 +151,7 @@ public class MXImagesInfiniteScrollView: UIScrollView, UIScrollViewDelegate {
         // Since images is immutable, we make a copy here.
         // Note that in Swift, arrays are value types.
         var imagesCopy = images
-
         imagesCopy.insert(images[numPages - 1], atIndex: 0)
-        
         imagesCopy.append(images[0])
         
         self.contentSize = CGSizeMake(width * CGFloat(imagesCopy.count), height)
@@ -193,9 +191,7 @@ public class MXImagesInfiniteScrollView: UIScrollView, UIScrollViewDelegate {
         }
         
         var urlStringsCopy = urlStrings
-        
         urlStringsCopy.insert(urlStrings[numPages - 1], atIndex: 0)
-        
         urlStringsCopy.append(urlStrings[0])
         
         self.contentSize = CGSizeMake(width * CGFloat(urlStringsCopy.count), height)
@@ -220,7 +216,6 @@ public class MXImagesInfiniteScrollView: UIScrollView, UIScrollViewDelegate {
     public func scrollViewDidEndDecelerating(scrollView: UIScrollView) {
         var currentIdx = Int(self.contentOffset.x / width)
         
-        
         if currentIdx == 0 {
             currentIdx = numPages
             self.contentOffset = CGPointMake(width * CGFloat(numPages), 0)
@@ -229,7 +224,6 @@ public class MXImagesInfiniteScrollView: UIScrollView, UIScrollViewDelegate {
             currentIdx = 1
             self.contentOffset = CGPointMake(width * CGFloat(1), 0)
         }
-        
         
         self.currentPage = currentIdx - 1
     }

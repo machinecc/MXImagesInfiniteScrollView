@@ -8,7 +8,7 @@ MXImagesInfiniteScrollView is a lightweight Swift implementation of scrolling ia
 
 ### Example Usage
 
-Please download file *MXImagesInfiniteScrollView.swift* and all source files in folder *KFSwiftImageLoader*, and add them to your project.
+Please download source file *MXImagesInfiniteScrollView.swift* as well as all source files in folder *KFSwiftImageLoader*, and then add them to your project.
 
 A small demo of how to use this class is also provided.
 

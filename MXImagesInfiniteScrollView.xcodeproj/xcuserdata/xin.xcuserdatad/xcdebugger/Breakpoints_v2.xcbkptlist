@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MXImagesInfiniteScrollView/MXImagesInfiniteScrollView.swift"
-            timestampString = "458248725.697749"
+            timestampString = "458252120.774049"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "199"
-            endingLineNumber = "199"
+            startingLineNumber = "195"
+            endingLineNumber = "195"
             landmarkName = "loadImagesFromURLStrings(_:)"
             landmarkType = "5">
          </BreakpointContent>
