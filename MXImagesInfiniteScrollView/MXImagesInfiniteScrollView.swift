@@ -46,6 +46,7 @@ public class MXImagesInfiniteScrollView: UIScrollView, UIScrollViewDelegate {
         pageControl = UIPageControl(frame: CGRectMake(frame.minX + (width - pageControlWidth) / 2.0, frame.maxY - pageControlHeight, pageControlWidth, pageControlHeight))
         pageControl?.pageIndicatorTintColor = UIColor.whiteColor()
         pageControl?.currentPageIndicatorTintColor = UIColor.purpleColor()
+        pageControl?.enabled = false
         self.superview?.addSubview(pageControl!)
     }
     
@@ -80,6 +81,13 @@ public class MXImagesInfiniteScrollView: UIScrollView, UIScrollViewDelegate {
     public var currentPageIndicatorTintColor: UIColor? {
         didSet {
             pageControl?.currentPageIndicatorTintColor = currentPageIndicatorTintColor
+        }
+    }
+    
+    // Property: Pagecontrol whether should be hidden
+    public var pageControlHidden: Bool = false {
+        didSet {
+            pageControl?.hidden = pageControlHidden
         }
     }
 

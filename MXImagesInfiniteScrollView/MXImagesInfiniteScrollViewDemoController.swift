@@ -28,6 +28,7 @@ class MXImagesInfiniteScrollViewDemoController : UIViewController {
         banner.loadImagesFromURLStrings(imageUrls)
         banner.pageIndicatorTintColor = UIColor.whiteColor()
         banner.currentPageIndicatorTintColor = UIColor.blueColor()
+        banner.pageControlHidden = false
         NSLog("numPages = \(banner.numPages),   currentPage = \(banner.currentPage)")
     }
     
