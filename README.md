@@ -2,7 +2,7 @@
 
 ### Introduction 
 
-MXImagesInfiniteScrollView is a lightweight Swift implementation of scrolling iamgeview, which can infinitely scroll among a group of images.
+MXImagesInfiniteScrollView is a lightweight iOS Swift implementation of infinite scrolling view of a group of images.
 
 ![Demo.gif](https://github.com/machinecc/MXImagesInfiniteScrollView/blob/master/Demo.gif)
 
