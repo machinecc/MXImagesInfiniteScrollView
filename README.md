@@ -1,9 +1,9 @@
 # MXImagesInfiniteScrollView
 
-![Platform](https://img.shields.io/badge/platform-iOS-brightgreen.svg)
-![Language](https://img.shields.io/badge/language-Swift-green.svg)
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Build](https://img.shields.io/badge/build-passing-brightgreen.svg)
+![Platform iOS](https://img.shields.io/badge/platform-iOS-brightgreen.svg)
+![Language Swift](https://img.shields.io/badge/language-Swift-green.svg)
+![License MIT](https://img.shields.io/badge/license-MIT-blue.svg)
+![Build Passing](https://img.shields.io/badge/build-passing-brightgreen.svg)
 
 
 ### Introduction 
