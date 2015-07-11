@@ -1,5 +1,11 @@
 # MXImagesInfiniteScrollView
 
+![Platform](https://img.shields.io/badge/platform-iOS-brightgreen.svg)
+![Language](https://img.shields.io/badge/language-Swift-green.svg)
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Build](https://img.shields.io/badge/build-passing-brightgreen.svg)
+
+
 ### Introduction 
 
 MXImagesInfiniteScrollView is a lightweight iOS Swift implementation of infinite scrolling view of a group of images.
